@@ -1,0 +1,10 @@
+{
+  "name": "test ag-heute app",
+  "description": "test deploy ap",
+  "keywords": [],
+  "scripts": {
+    "dokku": {
+      "postdeploy": "bundle exec rake db:migrate"
+    }
+  }
+}
